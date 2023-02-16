@@ -1,7 +1,7 @@
 # include <stdio.h>
 /**
  * main - printing a program size of various computer types
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
