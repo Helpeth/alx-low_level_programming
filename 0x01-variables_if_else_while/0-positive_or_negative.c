@@ -3,7 +3,10 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - printing positive anything better than negative
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int n;
