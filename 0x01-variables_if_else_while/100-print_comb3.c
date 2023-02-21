@@ -5,24 +5,26 @@
  */
 int main(void)
 {
-	int n, i;
+	int s = 0, e = 8, s1 = 1, e1 = 9;
 
-	for (n = '0'; n < '9'; n++)
+	while (s <= e)
 	{
+		s1 = s + 1;
+		while (s1 <= e1)
+		{
+			putchar(s + '0');
+			putchar(s1 + '0');
+			s1++;
 
-	for (i = n + 1; i <= '9'; n++)
-	{
-	if (i != n)
-	{
-	putchar(n);
-	putchar(i);
-	if (n == '0' && i == '9')
-		continue;
-	putchar(',');
-	putchar(' ');
-	}
-	}
+			if (s != e)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+		s++;
 	}
 	putchar('\n');
+
 	return (0);
 }
