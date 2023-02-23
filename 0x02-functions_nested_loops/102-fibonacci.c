@@ -16,7 +16,7 @@ int main(void)
 			printf(", %ld", k);
 		else
 		{
-			K += j;
+			k += j;
 			j = k - j;
 			printf(", %ld", k);
 		}
