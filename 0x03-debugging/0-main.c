@@ -11,6 +11,7 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
+	printf("%d is positive_or_negative\n");
 
 	return (0);
 }
